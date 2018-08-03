@@ -6,34 +6,71 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/jikexueyuan.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-
 </head>
 <body>
 	<!--导航栏--导航栏--导航栏-->
-	<header class="head-section">
+	<header class="head-section"> 
     <div class="head-contion">
       <a href="javascript:;">
-        <img src="img/header-LOGO.png" alt="">
+        <img src="img/header-LOGO.png">
       </a>
       <ul class="head-nav">
-        <li><a href="javascript:;">首页</a></li>
-        <li><a href="javascript:;">职业</a></li>
-        <li><a href="javascript:;">课程</a></li>
-        <li><a href="javascript:;">企业</a></li>
-        <li><a href="javascript:;">社区</a></li>
+        <li class="nav-list"><a class="nav-link" href="javascript:;">首页</a></li>
+        <li class="nav-list">
+          <a class="nav-link" href="javascript:;">职业路径</a>
+          <ul class="head-career-poll_down">
+            <li class="career-item"><a href="javascript:;">Web前端工程师</a></li>
+            <li class="career-item"><a href="javascript:;">Android工程师</a></li>
+            <li class="career-item"><a href="javascript:;">iOS工程师</a></li>
+            <li class="career-item"><a href="javascript:;">Python工程师</a></li>
+            <li class="career-item"><a href="javascript:;">Golang工程师</a></li>
+            <li class="career-item"><a href="javascript:;">微信小程序</a></li>
+          </ul>
+        </li>
+        <li class="nav-list">
+          <a class="nav-link" href="javascript:;">课程</a>
+            <ul class="head-course-poll_down">
+              <li><a href="javascript:;">课程库</a></li>
+              <li><a href="javascript:;">知识体系图</a></li>
+              <li><a href="javascript:;">系列课程</a></li>
+              <li><a href="javascript:;">企业专区</a></li>
+              <li><a href="javascript:;">Wiki</a></li>
+            </ul>
+        </li>
+        <li class="nav-list">
+          <a class="nav-link" href="javascript:;">服务</a>
+          <ul class="head-serve-poll_down">
+            <li><a href="javascript:;">职业规划</a></li>
+            <li><a href="javascript:;">就业辅导</a></li>
+            <li><a href="javascript:;">定级定等</a></li>
+            <li><a href="javascript:;">就业培训</a></li>
+            <li><a href="javascript:;">毕业设计</a></li>
+            <li><a href="javascript:;">实习实践</a></li>
+            <li><a href="javascript:;">导师辅导</a></li>
+          </ul>
+        </li>
+        <li class="nav-list">
+          <a class="nav-link" href="javascript:;">企业</a>
+          <ul class="head-enterprise-poll_down">
+            <li><a href="javascript:;">合作专区</a></li>
+            <li><a href="javascript:;">内训方案</a></li>
+            <li><a href="javascript:;">人才服务</a></li>
+            <li><a href="javascript:;">项目服务</a></li>
+          </ul>
+        </li>
+        <li class="nav-list"><a class="nav-link" href="javascript:;">社区</a></li>
       </ul>
+
       <div class="head-search">
           <input type="text" value="前端技术">
           <a href="javascript:;"><i class="fas fa-search fa-xs"></i></a>
       </div>
       <div class="head-user">
         <a href="javascript:;"><i class="far fa-bell"></i></a>
-        <a href="javascript:;"><img src="img/user.png" alt=""></a>
+        <a href="javascript:;"><img src="img/user.png"></a>
       </div>
     </div>
   </header>
-	<!--导航栏--导航栏--导航栏-->
-
   <!--焦点图--焦点图--焦点图-->
   <div class="banner-section">
     <div class="banner-contion">
@@ -43,14 +80,409 @@
         <a href="javascript:;"></a>
       </div>
       <ul class="banner-bd">
-        <li><a href="javascript:;">前端学院</a><div class="banner-child"></div></li>
-        <li><a href="javascript:;">后端学院</a><div class="banner-child"></div></li>
-        <li><a href="javascript:;">移动学院</a><div class="banner-child"></div></li>
-        <li><a href="javascript:;">云计算学院</a><div class="banner-child"></div></li>
-        <li><a href="javascript:;">物联网&智能硬件</a><div class="banner-child"></div></li>
-        <li><a href="javascript:;">数据库</a><div class="banner-child"></div></li>
-        <li><a href="javascript:;">认证考试</a><div class="banner-child"></div></li>
-        <li><a href="javascript:;">AI学院</a><div class="banner-child"></div></li>
+        <li class="li">
+          <a class="links" href="javascript:;">前端学院</a>
+          <div class="banner-child">
+            <div class="banner-knowledge">
+              <p class="list-title"><span>知识体系</span></p>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端基础</a></dt>
+                <dd><a class="link" href="javascript:;">HTML</a></dd>
+                <dd><a class="link" href="javascript:;">CSS</a></dd>
+                <dd><a class="link" href="javascript:;">JavaScript</a></dd>
+                <dd><a class="link" href="javascript:;">HTML5</a></dd>
+                <dd><a class="link" href="javascript:;">CSS3</a></dd>
+                <dd><a class="link" href="javascript:;">技术前瞻</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端进阶</a></dt>
+                <dd><a class="link" href="javascript:;">Typescript</a></dd>
+                <dd><a class="link" href="javascript:;">前端安全</a></dd>
+                <dd><a class="link" href="javascript:;">项目实战</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端框架</a></dt>
+                <dd><a class="link" href="javascript:;">jQuery</a></dd>
+                <dd><a class="link" href="javascript:;">jQuery Ul</a></dd>
+                <dd><a class="link" href="javascript:;">jQuery Mobile</a></dd>
+                <dd><a class="link" href="javascript:;">EXt JS</a></dd>
+                <dd><a class="link" href="javascript:;">AngularJS</a></dd>
+                <dd><a class="link" href="javascript:;">RegularJS</a></dd>
+                <dd><a class="link" href="javascript:;">Bootstrrap</a></dd>
+                <dd><a class="link" href="javascript:;">React Native</a></dd>
+                <dd><a class="link" href="javascript:;">Backbone</a></dd>
+                <dd><a class="link" href="javascript:;">Three.js</a></dd>
+                <dd><a class="link" href="javascript:;">MooTols</a></dd>
+                <dd><a class="link" href="javascript:;">Compass</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">HTML5游戏</a></dt>
+                <dd><a class="link" href="javascript:;">Canvas</a></dd>
+                <dd><a class="link" href="javascript:;">SVG</a></dd>
+                <dd><a class="link" href="javascript:;">WebGL</a></dd>
+                <dd><a class="link" href="javascript:;">Cocos2d-js</a></dd>
+                <dd><a class="link" href="javascript:;">CreateJS</a></dd>
+                <dd><a class="link" href="javascript:;">Flash</a></dd>
+                <dd><a class="link" href="javascript:;">Unreal</a></dd>
+                <dd><a class="link" href="javascript:;">Egret</a></dd>
+                <dd><a class="link" href="javascript:;">Phaser</a></dd>
+              </dl> 
+            </div>
+            <div class="banner-recommend"><p class="item-title"><span>推荐学习</span></p></div>
+          </div>
+        </li>
+        <li class="li">
+          <a class="links" href="javascript:;">后端学院</a>
+          <div class="banner-child">
+            <div class="banner-knowledge">
+              <p class="list-title"><span>知识体系</span></p>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端基础</a></dt>
+                <dd><a class="link" href="javascript:;">HTML</a></dd>
+                <dd><a class="link" href="javascript:;">CSS</a></dd>
+                <dd><a class="link" href="javascript:;">JavaScript</a></dd>
+                <dd><a class="link" href="javascript:;">HTML5</a></dd>
+                <dd><a class="link" href="javascript:;">CSS3</a></dd>
+                <dd><a class="link" href="javascript:;">技术前瞻</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端进阶</a></dt>
+                <dd><a class="link" href="javascript:;">Typescript</a></dd>
+                <dd><a class="link" href="javascript:;">前端安全</a></dd>
+                <dd><a class="link" href="javascript:;">项目实战</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端框架</a></dt>
+                <dd><a class="link" href="javascript:;">jQuery</a></dd>
+                <dd><a class="link" href="javascript:;">jQuery Ul</a></dd>
+                <dd><a class="link" href="javascript:;">jQuery Mobile</a></dd>
+                <dd><a class="link" href="javascript:;">EXt JS</a></dd>
+                <dd><a class="link" href="javascript:;">AngularJS</a></dd>
+                <dd><a class="link" href="javascript:;">RegularJS</a></dd>
+                <dd><a class="link" href="javascript:;">Bootstrrap</a></dd>
+                <dd><a class="link" href="javascript:;">React Native</a></dd>
+                <dd><a class="link" href="javascript:;">Backbone</a></dd>
+                <dd><a class="link" href="javascript:;">Three.js</a></dd>
+                <dd><a class="link" href="javascript:;">MooTols</a></dd>
+                <dd><a class="link" href="javascript:;">Compass</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">HTML5游戏</a></dt>
+                <dd><a class="link" href="javascript:;">Canvas</a></dd>
+                <dd><a class="link" href="javascript:;">SVG</a></dd>
+                <dd><a class="link" href="javascript:;">WebGL</a></dd>
+                <dd><a class="link" href="javascript:;">Cocos2d-js</a></dd>
+                <dd><a class="link" href="javascript:;">CreateJS</a></dd>
+                <dd><a class="link" href="javascript:;">Flash</a></dd>
+                <dd><a class="link" href="javascript:;">Unreal</a></dd>
+                <dd><a class="link" href="javascript:;">Egret</a></dd>
+                <dd><a class="link" href="javascript:;">Phaser</a></dd>
+              </dl> 
+            </div>
+            <div class="banner-recommend"><p class="item-title"><span>推荐学习</span></p></div>
+          </div>
+        </li>
+        <li class="li">
+          <a class="links" href="javascript:;">移动学院</a>
+          <div class="banner-child">
+            <div class="banner-knowledge">
+              <p class="list-title"><span>知识体系</span></p>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端基础</a></dt>
+                <dd><a class="link" href="javascript:;">HTML</a></dd>
+                <dd><a class="link" href="javascript:;">CSS</a></dd>
+                <dd><a class="link" href="javascript:;">JavaScript</a></dd>
+                <dd><a class="link" href="javascript:;">HTML5</a></dd>
+                <dd><a class="link" href="javascript:;">CSS3</a></dd>
+                <dd><a class="link" href="javascript:;">技术前瞻</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端进阶</a></dt>
+                <dd><a class="link" href="javascript:;">Typescript</a></dd>
+                <dd><a class="link" href="javascript:;">前端安全</a></dd>
+                <dd><a class="link" href="javascript:;">项目实战</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端框架</a></dt>
+                <dd><a class="link" href="javascript:;">jQuery</a></dd>
+                <dd><a class="link" href="javascript:;">jQuery Ul</a></dd>
+                <dd><a class="link" href="javascript:;">jQuery Mobile</a></dd>
+                <dd><a class="link" href="javascript:;">EXt JS</a></dd>
+                <dd><a class="link" href="javascript:;">AngularJS</a></dd>
+                <dd><a class="link" href="javascript:;">RegularJS</a></dd>
+                <dd><a class="link" href="javascript:;">Bootstrrap</a></dd>
+                <dd><a class="link" href="javascript:;">React Native</a></dd>
+                <dd><a class="link" href="javascript:;">Backbone</a></dd>
+                <dd><a class="link" href="javascript:;">Three.js</a></dd>
+                <dd><a class="link" href="javascript:;">MooTols</a></dd>
+                <dd><a class="link" href="javascript:;">Compass</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">HTML5游戏</a></dt>
+                <dd><a class="link" href="javascript:;">Canvas</a></dd>
+                <dd><a class="link" href="javascript:;">SVG</a></dd>
+                <dd><a class="link" href="javascript:;">WebGL</a></dd>
+                <dd><a class="link" href="javascript:;">Cocos2d-js</a></dd>
+                <dd><a class="link" href="javascript:;">CreateJS</a></dd>
+                <dd><a class="link" href="javascript:;">Flash</a></dd>
+                <dd><a class="link" href="javascript:;">Unreal</a></dd>
+                <dd><a class="link" href="javascript:;">Egret</a></dd>
+                <dd><a class="link" href="javascript:;">Phaser</a></dd>
+              </dl> 
+            </div>
+            <div class="banner-recommend"><p class="item-title"><span>推荐学习</span></p></div>
+          </div>
+        </li>
+        <li class="li"><a class="links" href="javascript:;">云计算学院</a>
+          <div class="banner-child">
+            <div class="banner-knowledge">
+              <p class="list-title"><span>知识体系</span></p>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端基础</a></dt>
+                <dd><a class="link" href="javascript:;">HTML</a></dd>
+                <dd><a class="link" href="javascript:;">CSS</a></dd>
+                <dd><a class="link" href="javascript:;">JavaScript</a></dd>
+                <dd><a class="link" href="javascript:;">HTML5</a></dd>
+                <dd><a class="link" href="javascript:;">CSS3</a></dd>
+                <dd><a class="link" href="javascript:;">技术前瞻</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端进阶</a></dt>
+                <dd><a class="link" href="javascript:;">Typescript</a></dd>
+                <dd><a class="link" href="javascript:;">前端安全</a></dd>
+                <dd><a class="link" href="javascript:;">项目实战</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端框架</a></dt>
+                <dd><a class="link" href="javascript:;">jQuery</a></dd>
+                <dd><a class="link" href="javascript:;">jQuery Ul</a></dd>
+                <dd><a class="link" href="javascript:;">jQuery Mobile</a></dd>
+                <dd><a class="link" href="javascript:;">EXt JS</a></dd>
+                <dd><a class="link" href="javascript:;">AngularJS</a></dd>
+                <dd><a class="link" href="javascript:;">RegularJS</a></dd>
+                <dd><a class="link" href="javascript:;">Bootstrrap</a></dd>
+                <dd><a class="link" href="javascript:;">React Native</a></dd>
+                <dd><a class="link" href="javascript:;">Backbone</a></dd>
+                <dd><a class="link" href="javascript:;">Three.js</a></dd>
+                <dd><a class="link" href="javascript:;">MooTols</a></dd>
+                <dd><a class="link" href="javascript:;">Compass</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">HTML5游戏</a></dt>
+                <dd><a class="link" href="javascript:;">Canvas</a></dd>
+                <dd><a class="link" href="javascript:;">SVG</a></dd>
+                <dd><a class="link" href="javascript:;">WebGL</a></dd>
+                <dd><a class="link" href="javascript:;">Cocos2d-js</a></dd>
+                <dd><a class="link" href="javascript:;">CreateJS</a></dd>
+                <dd><a class="link" href="javascript:;">Flash</a></dd>
+                <dd><a class="link" href="javascript:;">Unreal</a></dd>
+                <dd><a class="link" href="javascript:;">Egret</a></dd>
+                <dd><a class="link" href="javascript:;">Phaser</a></dd>
+              </dl> 
+            </div>
+            <div class="banner-recommend"><p class="item-title"><span>推荐学习</span></p></div>
+          </div>
+        </li>
+        <li class="li"><a class="links" href="javascript:;">物联网&智能硬件</a>
+          <div class="banner-child">
+            <div class="banner-knowledge">
+              <p class="list-title"><span>知识体系</span></p>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端基础</a></dt>
+                <dd><a class="link" href="javascript:;">HTML</a></dd>
+                <dd><a class="link" href="javascript:;">CSS</a></dd>
+                <dd><a class="link" href="javascript:;">JavaScript</a></dd>
+                <dd><a class="link" href="javascript:;">HTML5</a></dd>
+                <dd><a class="link" href="javascript:;">CSS3</a></dd>
+                <dd><a class="link" href="javascript:;">技术前瞻</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端进阶</a></dt>
+                <dd><a class="link" href="javascript:;">Typescript</a></dd>
+                <dd><a class="link" href="javascript:;">前端安全</a></dd>
+                <dd><a class="link" href="javascript:;">项目实战</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端框架</a></dt>
+                <dd><a class="link" href="javascript:;">jQuery</a></dd>
+                <dd><a class="link" href="javascript:;">jQuery Ul</a></dd>
+                <dd><a class="link" href="javascript:;">jQuery Mobile</a></dd>
+                <dd><a class="link" href="javascript:;">EXt JS</a></dd>
+                <dd><a class="link" href="javascript:;">AngularJS</a></dd>
+                <dd><a class="link" href="javascript:;">RegularJS</a></dd>
+                <dd><a class="link" href="javascript:;">Bootstrrap</a></dd>
+                <dd><a class="link" href="javascript:;">React Native</a></dd>
+                <dd><a class="link" href="javascript:;">Backbone</a></dd>
+                <dd><a class="link" href="javascript:;">Three.js</a></dd>
+                <dd><a class="link" href="javascript:;">MooTols</a></dd>
+                <dd><a class="link" href="javascript:;">Compass</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">HTML5游戏</a></dt>
+                <dd><a class="link" href="javascript:;">Canvas</a></dd>
+                <dd><a class="link" href="javascript:;">SVG</a></dd>
+                <dd><a class="link" href="javascript:;">WebGL</a></dd>
+                <dd><a class="link" href="javascript:;">Cocos2d-js</a></dd>
+                <dd><a class="link" href="javascript:;">CreateJS</a></dd>
+                <dd><a class="link" href="javascript:;">Flash</a></dd>
+                <dd><a class="link" href="javascript:;">Unreal</a></dd>
+                <dd><a class="link" href="javascript:;">Egret</a></dd>
+                <dd><a class="link" href="javascript:;">Phaser</a></dd>
+              </dl> 
+            </div>
+            <div class="banner-recommend"><p class="item-title"><span>推荐学习</span></p></div>
+          </div>
+        </li>
+        <li class="li"><a class="links" href="javascript:;">数据库</a>
+          <div class="banner-child">
+            <div class="banner-knowledge">
+              <p class="list-title"><span>知识体系</span></p>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端基础</a></dt>
+                <dd><a class="link" href="javascript:;">HTML</a></dd>
+                <dd><a class="link" href="javascript:;">CSS</a></dd>
+                <dd><a class="link" href="javascript:;">JavaScript</a></dd>
+                <dd><a class="link" href="javascript:;">HTML5</a></dd>
+                <dd><a class="link" href="javascript:;">CSS3</a></dd>
+                <dd><a class="link" href="javascript:;">技术前瞻</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端进阶</a></dt>
+                <dd><a class="link" href="javascript:;">Typescript</a></dd>
+                <dd><a class="link" href="javascript:;">前端安全</a></dd>
+                <dd><a class="link" href="javascript:;">项目实战</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端框架</a></dt>
+                <dd><a class="link" href="javascript:;">jQuery</a></dd>
+                <dd><a class="link" href="javascript:;">jQuery Ul</a></dd>
+                <dd><a class="link" href="javascript:;">jQuery Mobile</a></dd>
+                <dd><a class="link" href="javascript:;">EXt JS</a></dd>
+                <dd><a class="link" href="javascript:;">AngularJS</a></dd>
+                <dd><a class="link" href="javascript:;">RegularJS</a></dd>
+                <dd><a class="link" href="javascript:;">Bootstrrap</a></dd>
+                <dd><a class="link" href="javascript:;">React Native</a></dd>
+                <dd><a class="link" href="javascript:;">Backbone</a></dd>
+                <dd><a class="link" href="javascript:;">Three.js</a></dd>
+                <dd><a class="link" href="javascript:;">MooTols</a></dd>
+                <dd><a class="link" href="javascript:;">Compass</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">HTML5游戏</a></dt>
+                <dd><a class="link" href="javascript:;">Canvas</a></dd>
+                <dd><a class="link" href="javascript:;">SVG</a></dd>
+                <dd><a class="link" href="javascript:;">WebGL</a></dd>
+                <dd><a class="link" href="javascript:;">Cocos2d-js</a></dd>
+                <dd><a class="link" href="javascript:;">CreateJS</a></dd>
+                <dd><a class="link" href="javascript:;">Flash</a></dd>
+                <dd><a class="link" href="javascript:;">Unreal</a></dd>
+                <dd><a class="link" href="javascript:;">Egret</a></dd>
+                <dd><a class="link" href="javascript:;">Phaser</a></dd>
+              </dl> 
+            </div>
+            <div class="banner-recommend"><p class="item-title"><span>推荐学习</span></p></div>
+          </div>
+        </li>
+        <li class="li"><a class="links" href="javascript:;">认证考试</a>
+          <div class="banner-child">
+            <div class="banner-knowledge">
+              <p class="list-title"><span>知识体系</span></p>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端基础</a></dt>
+                <dd><a class="link" href="javascript:;">HTML</a></dd>
+                <dd><a class="link" href="javascript:;">CSS</a></dd>
+                <dd><a class="link" href="javascript:;">JavaScript</a></dd>
+                <dd><a class="link" href="javascript:;">HTML5</a></dd>
+                <dd><a class="link" href="javascript:;">CSS3</a></dd>
+                <dd><a class="link" href="javascript:;">技术前瞻</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端进阶</a></dt>
+                <dd><a class="link" href="javascript:;">Typescript</a></dd>
+                <dd><a class="link" href="javascript:;">前端安全</a></dd>
+                <dd><a class="link" href="javascript:;">项目实战</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端框架</a></dt>
+                <dd><a class="link" href="javascript:;">jQuery</a></dd>
+                <dd><a class="link" href="javascript:;">jQuery Ul</a></dd>
+                <dd><a class="link" href="javascript:;">jQuery Mobile</a></dd>
+                <dd><a class="link" href="javascript:;">EXt JS</a></dd>
+                <dd><a class="link" href="javascript:;">AngularJS</a></dd>
+                <dd><a class="link" href="javascript:;">RegularJS</a></dd>
+                <dd><a class="link" href="javascript:;">Bootstrrap</a></dd>
+                <dd><a class="link" href="javascript:;">React Native</a></dd>
+                <dd><a class="link" href="javascript:;">Backbone</a></dd>
+                <dd><a class="link" href="javascript:;">Three.js</a></dd>
+                <dd><a class="link" href="javascript:;">MooTols</a></dd>
+                <dd><a class="link" href="javascript:;">Compass</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">HTML5游戏</a></dt>
+                <dd><a class="link" href="javascript:;">Canvas</a></dd>
+                <dd><a class="link" href="javascript:;">SVG</a></dd>
+                <dd><a class="link" href="javascript:;">WebGL</a></dd>
+                <dd><a class="link" href="javascript:;">Cocos2d-js</a></dd>
+                <dd><a class="link" href="javascript:;">CreateJS</a></dd>
+                <dd><a class="link" href="javascript:;">Flash</a></dd>
+                <dd><a class="link" href="javascript:;">Unreal</a></dd>
+                <dd><a class="link" href="javascript:;">Egret</a></dd>
+                <dd><a class="link" href="javascript:;">Phaser</a></dd>
+              </dl> 
+            </div>
+            <div class="banner-recommend"><p class="item-title"><span>推荐学习</span></p></div>
+          </div>
+        </li>
+        <li class="li"><a class="links" href="javascript:;">AI学院</a>
+          <div class="banner-child">
+            <div class="banner-knowledge">
+              <p class="list-title"><span>知识体系</span></p>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端基础</a></dt>
+                <dd><a class="link" href="javascript:;">HTML</a></dd>
+                <dd><a class="link" href="javascript:;">CSS</a></dd>
+                <dd><a class="link" href="javascript:;">JavaScript</a></dd>
+                <dd><a class="link" href="javascript:;">HTML5</a></dd>
+                <dd><a class="link" href="javascript:;">CSS3</a></dd>
+                <dd><a class="link" href="javascript:;">技术前瞻</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端进阶</a></dt>
+                <dd><a class="link" href="javascript:;">Typescript</a></dd>
+                <dd><a class="link" href="javascript:;">前端安全</a></dd>
+                <dd><a class="link" href="javascript:;">项目实战</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">前端框架</a></dt>
+                <dd><a class="link" href="javascript:;">jQuery</a></dd>
+                <dd><a class="link" href="javascript:;">jQuery Ul</a></dd>
+                <dd><a class="link" href="javascript:;">jQuery Mobile</a></dd>
+                <dd><a class="link" href="javascript:;">EXt JS</a></dd>
+                <dd><a class="link" href="javascript:;">AngularJS</a></dd>
+                <dd><a class="link" href="javascript:;">RegularJS</a></dd>
+                <dd><a class="link" href="javascript:;">Bootstrrap</a></dd>
+                <dd><a class="link" href="javascript:;">React Native</a></dd>
+                <dd><a class="link" href="javascript:;">Backbone</a></dd>
+                <dd><a class="link" href="javascript:;">Three.js</a></dd>
+                <dd><a class="link" href="javascript:;">MooTols</a></dd>
+                <dd><a class="link" href="javascript:;">Compass</a></dd>
+              </dl>
+              <dl>
+                <dt><a class="link" href="javascript:;">HTML5游戏</a></dt>
+                <dd><a class="link" href="javascript:;">Canvas</a></dd>
+                <dd><a class="link" href="javascript:;">SVG</a></dd>
+                <dd><a class="link" href="javascript:;">WebGL</a></dd>
+                <dd><a class="link" href="javascript:;">Cocos2d-js</a></dd>
+                <dd><a class="link" href="javascript:;">CreateJS</a></dd>
+                <dd><a class="link" href="javascript:;">Flash</a></dd>
+                <dd><a class="link" href="javascript:;">Unreal</a></dd>
+                <dd><a class="link" href="javascript:;">Egret</a></dd>
+                <dd><a class="link" href="javascript:;">Phaser</a></dd>
+              </dl> 
+            </div>
+            <div class="banner-recommend"><p class="item-title"><span>推荐学习</span></p></div>
+          </div>
+        </li>
       </ul>
       <ul class="banner-update">
         <li class="update">今日更新</li>
@@ -63,7 +495,6 @@
       </ul>
     </div>
   </div>
-  <!--焦点图--焦点图--焦点图-->
   <div class="page-contont-section">
   <!--焦点图2--焦点图2--焦点图2-->
     <div class="banner-bottom">
@@ -71,12 +502,11 @@
      <a href="javascript:;"><img src="img/banner-03.png"></a>
      <a href="javascript:;"><img src="img/banner-04.png"></a>
     </div>
-   <!--焦点图2--焦点图2--焦点图2-->
    <!--职业路径--职业路径--职业路径-->
     <div class="occupation-section">
       <div class="occupation-title">
         <h2>职业路径</h2>
-       <!--<a href="javascript:;">更多知识体系</a>-->
+       <a href="javascript:;">更多知识体系</a>
      </div>
       <div class="occupation-list">
         <div class="occupation-item"><a href="javascript:;"><img src="img/course-1.png">HTML5开发工程师</a></div>
@@ -91,7 +521,6 @@
         <div class="occupation-item"><a href="javascript:;"><img src="img/course-1.png">Cocos2d-x工程师</a></div>
       </div>
     </div>
-   <!--职业路径--职业路径--职业路径-->
    <!--知识体系---知识体系--知识体系-->
     <div class="knowledge-section">
       <div class="knowledge-title">
@@ -122,7 +551,6 @@
         </div>
       </div>
     </div>
-   <!--知识体系---知识体系--知识体系-->
    <!--极客服务-极客服务--极客服务-->
     <div class="serve-section">
       <div class="serve-title">
@@ -191,7 +619,6 @@
         </div>
       </div>
     </div>
-    <!--极客服务-极客服务--极客服务-->
     <!--论坛--论坛--论坛-->
     <div class="forum-section">
       <div class="forun-list">
@@ -199,35 +626,34 @@
           <h3>有问必答</h3>
           <a href="javascript:;">更多问题</a>
         </div>
-        <p>问答技巧： 怎样提问才能让我的问题更快速被解答？<span>64 / 25.3k</span></p>
-        <p>Bootstrap最新版V4中文文档<span>21/15k</span></p>
-        <p>老师分享： 对LPS的ManACher算法刚下去的同学请进<span>8/5.3k</span></p>
-        <p>请问如何下载视频<span>14/180.8k</span></p>
-        <p>问答技巧： 怎样提问才能让我的问题更快速被解答？<span>21/15k</span></p>
-        <p>Bootstrap最新版V4中文文档<span>64 / 25.3k</span></p>
-        <p>请问如何下载视频<span>64 / 25.3k</span></p>
-        <p>老师分享： 对LPS的ManACher算法刚下去的同学请进<span>64 / 25.3k</span></p>
-        <p>问答技巧： 怎样提问才能让我的问题更快速被解答？<span>14/180.8k</span></p>
-        <p>Bootstrap最新版V4中文文档<span>64 / 25.3k</span></p>
+        <p><a href="javascript:;">问答技巧： 怎样提问才能让我的问题更快速被解答？</a><span>64 / 25.3k</span></p>
+        <p><a href="javascript:;">Bootstrap最新版V4中文文档</a><span>21/15k</span></p>
+        <p><a href="javascript:;">老师分享： 对LPS的ManACher算法刚下去的同学请进</a><span>8/5.3k</span></p>
+        <p><a href="javascript:;">请问如何下载视频</a><span>14/180.8k</span></p>
+        <p><a href="javascript:;">问答技巧： 怎样提问才能让我的问题更快速被解答？</a><span>21/15k</span></p>
+        <p><a href="javascript:;">Bootstrap最新版V4中文文档</a><span>64 / 25.3k</span></p>
+        <p><a href="javascript:;">请问如何下载视频</a><span>64 / 25.3k</span></p>
+        <p><a href="javascript:;">老师分享： 对LPS的ManACher算法刚下去的同学请进</a><span>64 / 25.3k</span></p>
+        <p><a href="javascript:;">问答技巧： 怎样提问才能让我的问题更快速被解答？</a><span>14/180.8k</span></p>
+        <p><a href="javascript:;">Bootstrap最新版V4中文文档</a><span>64 / 25.3k</span></p>
       </div>
       <div class="forun-list">
         <div class="forun-title">
           <h3>社群话题</h3>
           <a href="javascript:;">更多社群</a>
         </div>
-        <p>build_native.py时报错<span>65 /25.3k</span></p>
-        <p>不同fragment实现不同的功能<span>14 /180.8k</span></p>
-        <p>超级菜鸟想成为大牛怎么成长<span>8/5.3k</span></p>
-        <p>请问如何下载视频<span>14/180.8k</span></p>
-        <p>build_native.py时报错<span>14 /180.8k</span></p>
-        <p>不同fragment实现不同的功能<span>65 /25.3k</span></p>
-        <p>请问如何下载视频<span>64 / 25.3k</span></p>
-        <p>超级菜鸟想成为大牛怎么成长<span>64 / 25.3k</span></p>
-        <p>build_native.py时报错<span>14/180.8k</span></p>
-        <p>不同fragment实现不同的功能<span>21 /15k</span></p>
+        <p><a href="javascript:;">build_native.py时报错</a><span>65 /25.3k</span></p>
+        <p><a href="javascript:;">不同fragment实现不同的功能</a><span>14 /180.8k</span></p>
+        <p><a href="javascript:;">超级菜鸟想成为大牛怎么成长</a><span>8/5.3k</span></p>
+        <p><a href="javascript:;">请问如何下载视频</a><span>14/180.8k</span></p>
+        <p><a href="javascript:;">build_native.py时报错</a><span>14 /180.8k</span></p>
+        <p><a href="javascript:;">不同fragment实现不同的功能</a><span>65 /25.3k</span></p>
+        <p><a href="javascript:;">请问如何下载视频</a><span>64 / 25.3k</span></p>
+        <p><a href="javascript:;">超级菜鸟想成为大牛怎么成长</a><span>64 / 25.3k</span></p>
+        <p><a href="javascript:;">build_native.py时报错</a><span>14/180.8k</span></p>
+        <p><a href="javascript:;">不同fragment实现不同的功能</a><span>21 /15k</span></p>
       </div>
     </div>
-    <!--论坛--论坛--论坛-->
     <!--故事轮播图--故事轮播图--故事轮播图-->
     <div class="slide-section">
       <a class="slide-previous" href="javascript:;"></a>
@@ -260,8 +686,6 @@
         </div>
       </div>
     </div>
-     <!--故事轮播图--故事轮播图--故事轮播图-->
-
      <!--合作企业--合作企业--合作企业-->
     <div class="cooperation-section">
       <div class="cooperation-title">
@@ -270,54 +694,51 @@
       </div>
       <div class="cooperation-list">
         <a class="link" href="javascript:;"><img src="img/cooperation-01.png"></a>
+        <a class="link" href="javascript:;"><img src="img/cooperation-02.png"></a>
+        <a class="link" href="javascript:;"><img src="img/cooperation-03.png"></a>
         <a class="link" href="javascript:;"><img src="img/cooperation-01.png"></a>
         <a class="link" href="javascript:;"><img src="img/cooperation-01.png"></a>
         <a class="link" href="javascript:;"><img src="img/cooperation-01.png"></a>
+        <a class="link" href="javascript:;"><img src="img/cooperation-02.png"></a>
+        <a class="link" href="javascript:;"><img src="img/cooperation-04.png"></a>
         <a class="link" href="javascript:;"><img src="img/cooperation-01.png"></a>
+        <a class="link" href="javascript:;"><img src="img/cooperation-02.png"></a>
+        <a class="link" href="javascript:;"><img src="img/cooperation-03.png"></a>
+        <a class="link" href="javascript:;"><img src="img/cooperation-04.png"></a>
         <a class="link" href="javascript:;"><img src="img/cooperation-01.png"></a>
-        <a class="link" href="javascript:;"><img src="img/cooperation-01.png"></a>
-        <a class="link" href="javascript:;"><img src="img/cooperation-01.png"></a>
-        <a class="link" href="javascript:;"><img src="img/cooperation-01.png"></a>
-        <a class="link" href="javascript:;"><img src="img/cooperation-01.png"></a>
-        <a class="link" href="javascript:;"><img src="img/cooperation-01.png"></a>
-        <a class="link" href="javascript:;"><img src="img/cooperation-01.png"></a>
-        <a class="link" href="javascript:;"><img src="img/cooperation-01.png"></a>
-        <a class="link" href="javascript:;"><img src="img/cooperation-01.png"></a>
+        <a class="link" href="javascript:;"><img src="img/cooperation-04.png"></a>
       </div>
     </div>
-
-      <!--合作企业--合作企业--合作企业-->
-    </div>
+  </div>
    <!---->
-   <footer class="foot-section">
-     <div class="foot-top">
-
-       <a href="javascript:;">
-        <img class="rectangle-left" src="img/rectangle-left.png">
-        <img class="phone" src="img/footer-phone.png">
-        <img class="rectangle-right" src="img/rectangle-right.png">
-      </a>
-      <div class="foot-relation">
-        <a href="javascript:;"><img src="img/wx.png"></a>
-        <a href="javascript:;"><img src="img/qq.png"></a>
-        <a href="javascript:;"><img src="img/wb.png"></a>
-        <a href="javascript:;"><img src="img/fb.png"></a>
-         <a href="javascript:;"><img src="img/g+.png"></a>
-      </div>
-        <ul class="foot-nav">
-          <li><a href="javascript:;">企业合作</a></li>
-          <li><a href="javascript:;">讲师招募</a></li>
-          <li><a href="javascript:;">联系我们</a></li>
-          <li><a href="javascript:;">帮助中心</a></li>
-          <li><a href="javascript:;">黑板报</a></li>
-          <li><a href="javascript:;">友情链接</a></li>
-          <li><a href="javascript:;">意见反馈</a></li>
-        </ul>
+  <footer class="foot-section">
+    <div class="foot-top">
+      <a href="javascript:;">
+       <img class="rectangle-left" src="img/rectangle-left.png">
+       <img class="phone" src="img/footer-phone.png">
+       <img class="rectangle-right" src="img/rectangle-right.png">
+     </a>
+     <div class="foot-relation">
+       <a href="javascript:;"><img src="img/wx.png"></a>
+       <a href="javascript:;"><img src="img/qq.png"></a>
+       <a href="javascript:;"><img src="img/wb.png"></a>
+       <a href="javascript:;"><img src="img/fb.png"></a>
+        <a href="javascript:;"><img src="img/g+.png"></a>
      </div>
-     <div class="foot-bottom">
-       <p>Copyright © 2013-2016 jikexueyuan.com All Rights Reversed.  京ICP备11018032号  京公网安备11010802013056</p>
-       <a href="javascript:;"><img src="img/cert.png"></a>
-     </div>
-   </footer>
+       <ul class="foot-nav">
+         <li><a href="javascript:;">企业合作</a></li>
+         <li><a href="javascript:;">讲师招募</a></li>
+         <li><a href="javascript:;">联系我们</a></li>
+         <li><a href="javascript:;">帮助中心</a></li>
+         <li><a href="javascript:;">黑板报</a></li>
+         <li><a href="javascript:;">友情链接</a></li>
+         <li><a href="javascript:;">意见反馈</a></li>
+       </ul>
+    </div>
+    <div class="foot-bottom">
+      <p>Copyright © 2013-2016 jikexueyuan.com All Rights Reversed.  京ICP备11018032号  京公网安备11010802013056</p>
+      <a href="javascript:;"><img src="img/cert.png"></a>
+    </div>
+  </footer>
 </body>
 </html>
